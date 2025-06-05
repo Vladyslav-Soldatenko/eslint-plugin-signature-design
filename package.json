@@ -1,0 +1,52 @@
+{
+  "name": "eslint-plugin-signature-design",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "ESLint rule to make function signatures better. Currently has only one rule: prevent functions from having too many arguments with the same type.",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vladyslav-Soldatenko/eslint-plugin-signature-design.git"
+  },
+  "homepage": "https://github.com/Vladyslav-Soldatenko/eslint-plugin-signature-design",
+  "author": "Vladyslav Soldatenko",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "signature-design",
+    "primitive-obsession",
+    "duplicate-parameter-types",
+    "function-signature",
+    "parameters-types",
+    "typescript",
+    "lint",
+    "code-quality"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest",
+    "lint": "eslint --ext .ts src",
+    "prettier:fix": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@typescript-eslint/parser": "^8.33.1",
+    "@typescript-eslint/rule-tester": "^8.33.1",
+    "@typescript-eslint/utils": "^8.33.1",
+    "eslint": "^9.28.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3",
+    "ts-jest": "^29.3.4",
+    "typescript": "^5.8.3"
+  }
+}
