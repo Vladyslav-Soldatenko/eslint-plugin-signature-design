@@ -20,6 +20,7 @@
     "signature-design",
     "primitive-obsession",
     "duplicate-parameter-types",
+    "typescript-eslint",
     "function-signature",
     "parameters-types",
     "typescript",
