@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-signature-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "ESLint rule to make function signatures better. Currently has only one rule: prevent functions from having too many arguments with the same type.",
